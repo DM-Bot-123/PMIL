@@ -38,10 +38,10 @@ async def send(ctx, *, content: str):
         for member in ctx.message.server.members:
             try:
                 await client.send_message(member, content)
-                await client.say("DM Sent To : {}. Deleloper: PHOENiX#3256.".format(member))
+                await client.say("DM Sent To : {} Deleloper: PHOENiX#3256".format(member))
             except:
                 print("can't")
-                await client.say("DM can't Sent To : {}. Developer: PHOENiX#3256.".format(member))
+                await client.say("DM can't Sent To : {} Developer: PHOENiX#3256".format(member))
 
 
-client.run("NzEzNzE0MTk1NzYxNDYzMzI2.XskIJA.LKK8F2wXd9PWYvOWcp0b_IXeXL")                
+client.run("NzEzNzE0MTk1NzYxNDYzMzI2.XskIJA.t9xle2SGMg9k2LD9mknoF6hVKuI")                
